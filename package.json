@@ -4,7 +4,9 @@
   "description": "",
   "eggPlugin": {
     "name": "keyv",
-    "dep": ["redis"]
+    "dep": [
+      "redis"
+    ]
   },
   "keywords": [
     "egg",
@@ -12,7 +14,10 @@
     "egg-plugin",
     "redis"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@keyv/redis": "^1.3.8",
+    "keyv": "^3.0.0"
+  },
   "devDependencies": {
     "autod": "^2.8.0",
     "autod-egg": "^1.0.0",
