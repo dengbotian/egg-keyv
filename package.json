@@ -1,6 +1,6 @@
 {
   "name": "egg-keyv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "eggPlugin": {
     "name": "keyv",
@@ -43,9 +43,11 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
+    "app",
+    "config",
     "agent.js",
-    "config"
+    "lib",
+    "app.js"
   ],
   "ci": {
     "version": "6, 8"
