@@ -6,5 +6,9 @@
  * @property {String} SOME_KEY - some description
  */
 exports.keyv = {
-
+  default: {
+    url: ''
+  },
+  app: true,
+  agent: false,
 };

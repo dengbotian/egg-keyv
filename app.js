@@ -2,5 +2,5 @@
 const keyv = require('./lib/keyv')
 
 module.exports = app => {
-  keyv(app);
+  if (app.config.keyv.app) keyv(app);
 };

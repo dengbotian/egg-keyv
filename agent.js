@@ -1,5 +1,6 @@
 'use strict';
+const keyv = require('./lib/keyv')
 
 module.exports = agent => {
-  console.log('agent.config.env =', agent.config.env);
+  if (agent.config.keyv.agent) keyv(agent)
 };
