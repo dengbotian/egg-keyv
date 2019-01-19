@@ -7,7 +7,6 @@
  */
 exports.keyv = {
   default: {
-    url: ''
   },
   app: true,
   agent: false,
